@@ -8,3 +8,5 @@
 
 Line one
 line two
+
+![Image](http://url/a.png)
