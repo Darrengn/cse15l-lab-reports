@@ -9,5 +9,5 @@
 Line one
 line two
 
-![Image](https://static.wikia.nocookie.net/hitchhikers/images/7/70/Rubberduck.jpg/revision/latest?cb=20190126010351)
+![Image](https://lilalu-shop.com/media/image/35/9c/a5/lilalu-quietscheente-gelb-yellow-rubber-duck-HL.png)
 [Website](https://darrengn.github.io/cse15l-lab-reports/test.html)
