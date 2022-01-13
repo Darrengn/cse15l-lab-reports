@@ -9,4 +9,5 @@
 Line one
 line two
 
-![Image](http://url/a.png)
+![Image](https://static.wikia.nocookie.net/hitchhikers/images/7/70/Rubberduck.jpg/revision/latest?cb=20190126010351)
+[Website](https://darrengn.github.io/cse15l-lab-reports/test.html)
