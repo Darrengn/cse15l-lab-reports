@@ -27,7 +27,7 @@
 ![Image](LabOnePics\Pic3.png) <br>
 
 ## Moving files with scp<br>
-    Step 1: Use the command **scp *FileName* *YourAcountName*@ieng6.ucsd.edu:~/**<br>
+    Step 1: Use the command **scp *FileName* *YourAcountName*@ieng6.ucsd.edu:~/**
 
     Step 2: ssh back into the ieng6 server.
 
