@@ -2,7 +2,7 @@
 
 # Lab Report 1
 
-1. Installing VScode<br>
+## Installing VScode<br>
     Step 1: [download vs code here](https://code.visualstudio.com/) <br>
 
     Step 2: Follow instructions on the installer <br>
@@ -11,7 +11,7 @@
 
 ![Image](LabOnePics\Pic1.png)<br>
 
-2. Remotely Connecting<br>
+## Remotely Connecting<br>
     Step 1: Find your cs15lwi22 account at [this link](https://sdacs.ucsd.edu/~icc/index.php) (cs15lwi22auh for example) <br>
 
     Step 2: Open a new terminal in Vs code either by doing CTRL and ` or going to the top bar and clicking terminal<br>
@@ -20,22 +20,22 @@
 
 ![Image](LabOnePics\Pic2.png) <br>
 
-3. Test some terminal commands<br>
+## Test some terminal commands<br>
 
     You are now connected to the ieng server. Try some basic terminal commands. **cd** (change directory) is shown below. [List of basic terminal commands](https://www.techrepublic.com/article/16-terminal-commands-every-user-should-know/). Run **exit** to log off of the remote server<br>
 
 ![Image](LabOnePics\Pic3.png) <br>
 
-4. Moving files with scp<br>
+## Moving files with scp<br>
     Step 1: Use the command **scp *FileName* *YourAcountName*@ieng6.ucsd.edu:~/**<br>
 
     Step 2: ssh back into the ieng6 server.
 
     Step 3: if you run **ls**, you should see your file below.
 
-![Image](LabOnePics\Pic4.png)
+![Image](LabOnePics\Pic4.png)<br>
 
-5. Setting an SSH key <br>
+## Setting an SSH key <br>
     Step 1: First, go to [this link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) and follow the instructions up until Standard User.
 
     Step 2: ssh into the server and run the command **mkdir .ssh** . Then log back out.
@@ -44,7 +44,7 @@
 
     ![Image](LabOnePics\Pic5.png)<br>
 
-6. Optimizing remote running<br>
+## Optimizing remote running<br>
     In your terminal, you can run multiple commands at once by seperating commands with a semi colon. In addition you can run commands on the server by using "" around the commands that you want to run on the server. For example, the command below compiles and runs WhereAmI on the server.
     
     ![Image](LabOnePics\Pic6.png)
