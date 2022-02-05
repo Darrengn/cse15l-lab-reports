@@ -16,7 +16,7 @@
 
 ### Relationship
 
-The bug of not checking for a -1 creates a symptom because the "](" string couldn't be found in the file. The symptom appears because of how the substring method works. Because the indexOf method returns -1 when it can't find the specified string, the substring method gets a parameter of -1, which causes it to throw this exception.
+The bug of not checking for a -1 creates a symptom because the "](" string couldn't be found in the file. The symptom appears because of how the substring method works. Because the indexOf method returns -1 when it can't find the specified string, the substring method gets a parameter of -1, which causes it to throw this exception. This bug is fixed by checking if the index of "](" is -1, and if it is, then break out of the while loop.
 
 ## Code Change 2 <br>
 
